@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='style.css'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form> 
+        <li>
+        <label for ='title'>Book Title: </label>
+        <input type='text' id='title' name= "booktitle">
+        </li>
+        <li>
+        <label for='author'>Author: </label>
+        <input type='text' id='author' name ="bookauthor">
+        </li>
+        <li>
+        <label for='pages'>Pages: </label>
+        <input type='text' id='pages' name='bookpages'>
+        </li>
+        <li>
+        <label for = 'hasread'>Have you read it?</label>
+        <input type='text' id='haveread' name='bookread'>
+        </li>
+        
+            <li class="button">
+                
+              </li>
+        
+    </form>
+    <p id ='test'></p>
+    <button type='button' id='bookbutton'>New Book</button><br>
+    <button type='button' id='displaybooksbutton'>Display Books</button><br>
+    <button type='button' id='chartbutton'>Create Chart</button><br>
+    <table >
+        <tbody >
+
+
+
+
+
+        </tbody>
+
+
+        
+    </table>
+
+    <div>
+        <canvas id="myChart" width='400' height='400'></canvas>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
